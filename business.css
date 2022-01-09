@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+header {
+    color: white;
+    position: fixed;
+    width: 100%;    
+    border-bottom: 3px solid white;
+    height: 25px;
+    background-color: black;
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 2;
+}
+
+
+
+
+
+.navigation_bar {
+    position: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    text-align: center;
+    border: 3px solid white;
+    float: left;
+    font-size: 50px;
+    z-index: 1;
+    width: 20%;    
+    height: 1000px;
+    padding: 80px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: lightgrey;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .article {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    text-align: center;
+    color: white;
+    height: 7800px;
+    background-color: black;
+    padding: 80px;
+    float: right;
+  }
+
+  .skipe {
+    height: 500px;
+    width: 900px;
+  }
+
+  .landon {
+    height: 600px;
+    width:1000px;
+  }
+
+  .seriously {
+    height: 500px;
+    width: 1000px;
+  }
+
+  .tumbler {
+    height: 450x;
+    width: 450px;
+  }
+
+  .wippee {
+    height: 400px;
+    width: 750px;
+  }
+
+  .qwubby {
+    height: 400;
+    width: 450px;
+  }
+
+  .qwuppy {
+    height:500px;
+  }
+
+  .titre {
+    font-size: 60px;
+  }
+  
+  .subtext {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .article-content {
+    text-align: left;
+    font-size: 25px;
+  }
+
+  .list-headers {
+    text-align: center;
+    font-size:45px;
+  }
